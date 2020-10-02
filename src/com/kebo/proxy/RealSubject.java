@@ -7,14 +7,14 @@ package com.kebo.proxy;
  */
 public class RealSubject implements Subject{
 
-    public RealSubject() {
-        try {
+   /* public RealSubject() {
+       *//* try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*//*
     }
-
+*/
     @Override
     public void request() {
 //        try {
